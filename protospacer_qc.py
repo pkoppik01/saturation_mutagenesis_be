@@ -5,7 +5,7 @@ abe_editable_protospacers = []
 cbe_editable_protospacers = []
 
 # Read the CSV file
-file_path = '/Users/koppikarps/Python Development/saturation_mutagenesis_be/test2.saturation_mutagenesis_protospacers.2024-01-09.csv'  # Replace with the actual path to your file
+file_path = '/Users/koppikarps/Python Development/saturation_mutagenesis_be/test.saturation_mutagenesis_protospacers.2024-01-29.csv'
 with open(file_path, 'r') as file:
     csv_reader = csv.DictReader(file)
 
