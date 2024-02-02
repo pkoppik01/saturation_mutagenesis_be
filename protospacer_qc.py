@@ -5,7 +5,7 @@ abe_editable_protospacers = []
 cbe_editable_protospacers = []
 
 # Read the CSV file
-file_path = '/Users/koppikarps/Python Development/saturation_mutagenesis_be/test.saturation_mutagenesis_protospacers.2024-02-02.csv'
+file_path = '/Users/koppikarps/Python Development/saturation_mutagenesis_be/APOEexon4.saturation_mutagenesis_protospacers.2024-02-02.csv'
 with open(file_path, 'r') as file:
     csv_reader = csv.DictReader(file)
 
@@ -57,8 +57,8 @@ with open(file_path, 'r') as file:
 
 
 # Write the results to two separate CSV files
-abe_file_path = 'abe_editable_protospacers2.csv'
-cbe_file_path = 'cbe_editable_protospacers2.csv'
+abe_file_path = 'abe_editable_protospacers_APOEexon4.csv'
+cbe_file_path = 'cbe_editable_protospacers_APOEexon4.csv'
 
 # Function to write rows with headers
 def write_csv(file_path, data, headers):

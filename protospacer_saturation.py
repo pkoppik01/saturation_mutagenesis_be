@@ -47,7 +47,7 @@ def reverse_complement_sequence(sequence_lines, position, ps_result_list):
 ps_result_list = []
 position = []
 
-file_path = '/Users/koppikarps/Python Development/saturation_mutagenesis_be/test.txt'
+file_path = '/Users/koppikarps/Python Development/saturation_mutagenesis_be/APOEexon4.txt'
 
 try:
     with open(file_path, 'r') as file:
@@ -69,7 +69,7 @@ except Exception as e:
 
 # Export results to a CSV file
 dt_today = datetime.date.today()
-output_file = f'test.saturation_mutagenesis_protospacers.{dt_today}.csv'
+output_file = f'APOEexon4.saturation_mutagenesis_protospacers.{dt_today}.csv'
 with open(output_file, 'w', newline='') as csvfile:
     fieldnames = ['position', 'protospacer', 'run_type']
     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
